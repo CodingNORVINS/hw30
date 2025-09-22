@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	height: 100vh;
+	background: #f0f0f0;
+}
+
+.square {
+	position: absolute;
+	top: 20%;
+	left: 25%;
+	background-color: black;
+	width: 250px;
+	height: 250px;
+	animation: animation 4s infinite;
+}
+
+@keyframes animation {
+	0% {
+		top: 20%;
+		left: 25%;
+		background-color: green;
+	}
+
+	25% {
+		background-color: yellow;
+		top: 60%;
+		left: 25%;
+	}
+
+	50% {
+		background-color: blue;
+		top: 60%;
+		left: 55%;
+	}
+
+	75% {
+		background-color: red;
+		top: 20%;
+		left: 55%;
+	}
+}
